@@ -19,4 +19,5 @@ def get_postcodes(x, y):
         begin = n // 1000
         end = n % 1000
         list.append('{:02}-{:03}'.format(begin, end))
+  
     return list
